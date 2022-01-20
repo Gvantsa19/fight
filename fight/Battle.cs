@@ -43,7 +43,7 @@ namespace fight
 
             }
 
-            Console.WriteLine("{0} was killed!", bandit.name);
+            Console.WriteLine($"{bandit.name} was killed!");
             Console.ReadLine();
             Console.Clear();
         }
@@ -63,7 +63,7 @@ namespace fight
                 }
             }
 
-            Console.WriteLine("{0} was killed!", knight.name);
+            Console.WriteLine($"{knight.name} was killed!");
             Console.ReadLine();
             Console.Clear();
         }
@@ -83,7 +83,7 @@ namespace fight
                 }
             }
 
-            Console.WriteLine("{0} was killed !", dragon.name);
+            Console.WriteLine($"{dragon.name} was killed !");
             Console.ReadLine();
             Console.Clear();
         }

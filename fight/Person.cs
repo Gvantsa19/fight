@@ -17,10 +17,10 @@ namespace fight
 
         public void PrintStats()
         {
-            Console.WriteLine("{0} stats:", name);
+            Console.WriteLine($"{name} stats:");
             Console.WriteLine("");
-            Console.WriteLine("Attack value is: {0}", attack);
-            Console.WriteLine("Health value is: {0}", health);
+            Console.WriteLine($"Attack value is: {attack}");
+            Console.WriteLine($"Health value is: {health}");
         }
 
         public void NormAttack(Person target)

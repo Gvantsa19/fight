@@ -26,7 +26,7 @@ namespace fight
             healLvl += 5;
         }
 
-        // Special -------------------------------------------
+        
 
         public void Heal()
         {
@@ -42,14 +42,14 @@ namespace fight
         {
             target.health -= ((attack - 2) * 3);
         }
-public void DoubleSlash(Enemy target)
+        public void DoubleSlash(Enemy target)
         {
             target.health -= attack * 2;
         }
 
-        // Methods used in Battle ----------------------------------------
+        
 
-        public int Choice() // Produces heros decision
+        public int Choice() 
         {
             bool correctInput = true;
             int choice = 0, choice2;
@@ -69,7 +69,7 @@ public void DoubleSlash(Enemy target)
                     continue;
                 }
 
-                if (choice == 3) // Specials menu
+                if (choice == 3) 
                 {
                     Console.WriteLine("Choose Special:");
                     Console.WriteLine("1. Spin Attack");
@@ -115,7 +115,7 @@ public void DoubleSlash(Enemy target)
             if (decision == 2)
             {
                 Heal();
-                Console.WriteLine("You healed for {0} health!", healLvl);
+                Console.WriteLine($"You healed for {healLvl} health!");
             }
 
             if (decision == 4)

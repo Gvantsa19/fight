@@ -13,7 +13,7 @@ namespace fight
             armor = _armor;
         }
 
-        // Battle methods ------------------------------------------------------------
+        
 
         public void FireBreath(Hero target)
         {

@@ -11,7 +11,7 @@ namespace fight
         {
         }
 
-        // Battle methods -----------------------------------------
+        
 
         public int EChoice()
         {

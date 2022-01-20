@@ -10,7 +10,7 @@ namespace fight
             numOfAttack = 3;
         }
 
-        // Battle methods -------------------------------------------
+        
 
         public void Slash(Hero target)
         {
